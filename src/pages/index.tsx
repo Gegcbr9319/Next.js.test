@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Diagram } from '@/components';
 
 
 const MainPage = () => {
@@ -7,7 +8,7 @@ const MainPage = () => {
             <Head>
                 <title> Main page</title>
             </Head>
-
+            < Diagram />
            
         </>
     );
